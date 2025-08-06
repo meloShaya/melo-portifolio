@@ -1,5 +1,3 @@
-// Simple static portfolio - no complex JavaScript needed
-console.log('Megh Portfolio Clone - Static Site Ready 🚀');
 
 // Add smooth scrolling for any anchor links
 document.addEventListener('DOMContentLoaded', () => {

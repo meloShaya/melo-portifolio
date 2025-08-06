@@ -454,22 +454,31 @@ body {
     }
 }
 
+/* Existing media query updated for small mobile screens */
 @media (max-width: 480px) {
-    .skills h2 {
-        font-size: 20px;
-    }
-
-    .projects h2 {
-        font-size: 20px;
-    }
-
+    .skills h2,
+    .projects h2,
     .blog h2 {
-        font-size: 20px;
-    }
-
-    .project-category h3 {
         font-size: 18px;
     }
+    
+    .project-category h3 {
+        font-size: 16px;
+    }
+    
+    body {
+        font-size: 10px;
+    }
+    
+    .project-image {
+        height: 100px;
+    }
+    
+    .profile-pic {
+        width: 60px;
+        height: 60px;
+    }
+}
 }
 /* .project-tech {
     display: flex;
