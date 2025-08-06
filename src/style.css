@@ -470,16 +470,16 @@ body {
         font-size: 10px;
     }
     
-    .project-image {
+    /* .project-image {
         height: 100px;
-    }
+    } */
     
     .profile-pic {
         width: 60px;
         height: 60px;
     }
 }
-}
+
 /* .project-tech {
     display: flex;
     gap: 0.5rem;
