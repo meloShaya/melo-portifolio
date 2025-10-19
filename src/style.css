@@ -268,6 +268,13 @@ body {
     transform: translateY(-2px);
 }
 
+.project-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    cursor: pointer;
+}
+
 .project-image {
     width: 120px;
     height: 80px;
